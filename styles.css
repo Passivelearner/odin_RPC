@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+:root{
+    --header-bg: #D2A24C;
+}
+
+* {
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Silkscreen', cursive;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #ECE4C2;
+}
+
+#header-container{
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+    background-color: #D2A24C;
+    flex-wrap: wrap;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+#header-container div h2:hover{
+    background: -webkit-linear-gradient(#3061F8, #D42280);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+#game-container{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding: 64px;
+    align-items: center;
+    background: #CC6B49;
+    color: white;
+}
+
+.scoreContainer{
+    display: flex;
+    padding: 64px;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.scoreCard{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.buttons{
+    display: flex;
+    gap: 32px;
+    padding: 64px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    padding: 128px;
+    border: 5px solid black;
+    border-radius: 4px;
+}
+
+.card:hover{
+    background-color: #CC6B49;
+}
+
+#rockCard {
+    background-image: url('./images/pngwing.com.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#paperCard {
+    background-image: url('./images/kindpng_363363.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+#scissorCard {  
+    background-image: url('./images/kindpng_113773\ \(1\).png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    background:gainsboro;
+}

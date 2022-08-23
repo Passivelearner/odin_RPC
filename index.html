@@ -5,10 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <script src="app.js"></script>
+    <script src="app.js" defer></script>
     <title>Document</title>
 </head>
 <body>
-    
+    <header id="header-container">
+        <div id="title1">
+            <h2>Rock</h2>
+        </div>
+        <div id="title2">
+            <h2>Paper</h2>
+        </div>
+        <div id="title3">
+            <h2>Scissors</h2>
+        </div>
+    </header>
+    <div id="game-container">
+        <div class="info-container">
+            <h1 id="result">
+                X wins over Y, Z wins!
+            </h1>
+            <div class="scoreContainer">
+                <div id="playerScoreCard" class="scoreCard">
+                    <h3>Player</h3>
+                    <h2 id='playerScore'>0</h2>
+                </div>
+                <div class="scoreCard">-</div>
+                <div id="computerScoreCard" class="scoreCard">
+                    <h3>Computer</h3>
+                    <h2 id='playerScore'>0</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="buttons">
+        <div id='rockCard' class="card"></div>
+        <div id='paperCard' class="card"></div>
+        <div id='scissorCard'  class="card"></div>
+    </div>
+    <div id="footer">
+        <div>Zyrill Marcelino</div>
+    </div>
 </body>
 </html>
