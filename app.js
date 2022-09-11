@@ -54,17 +54,6 @@ const showModal = (winner) => {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 const addComputerPoints = () => {
 
     if(computerPoints === 5){
